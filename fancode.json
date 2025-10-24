@@ -1,22 +1,8 @@
 {
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "last update time": "11:32:21 AM 24-10-2025",
+    "last update time": "11:22:11 AM 24-10-2025",
     "matches": [
-        {
-            "event_category": "MotoGP",
-            "title": "Day 1 vs Petronas Sepang International Circuit (PETRONAS GRAND PRIX OF MALAYSIA)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Malaysia_Moto-GP_old_Match-card_1761019721479.jpg",
-            "team_1": "Day 1",
-            "team_2": "Petronas Sepang International Circuit",
-            "status": "LIVE",
-            "event_name": "PETRONAS GRAND PRIX OF MALAYSIA",
-            "match_name": "Day 1",
-            "match_id": 119261,
-            "startTime": "06:30:00 AM 24-10-2025",
-            "dai_url": "https://dai.google.com/linear/hls/event/sSlB74jLTbWthVrwBRb58Q/master.m3u8",
-            "adfree_url": "https://bd-mc-fdlive.fancode.com/mumbai/119261_english_hls_b0866561b940685ta-di_h264/index.m3u8"
-        },
         {
             "event_category": "Cricket",
             "title": "Adelaide Strikers Women vs Melbourne Renegades Women (T20 Spring Challenge, 2025)",
@@ -30,6 +16,20 @@
             "startTime": "09:00:00 AM 24-10-2025",
             "dai_url": "https://dai.google.com/linear/hls/event/UjZg9smzRpCqVNP25PVufg/master.m3u8",
             "adfree_url": "https://bd-mc-fdlive.fancode.com/mumbai/134002_english_hls_0e1135609e9719ta-di_h264/index.m3u8"
+        },
+        {
+            "event_category": "MotoGP",
+            "title": "Day 1 vs Petronas Sepang International Circuit (PETRONAS GRAND PRIX OF MALAYSIA)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Malaysia_Moto-GP_old_Match-card_1761019721479.jpg",
+            "team_1": "Day 1",
+            "team_2": "Petronas Sepang International Circuit",
+            "status": "LIVE",
+            "event_name": "PETRONAS GRAND PRIX OF MALAYSIA",
+            "match_name": "Day 1",
+            "match_id": 119261,
+            "startTime": "06:30:00 AM 24-10-2025",
+            "dai_url": "https://dai.google.com/linear/hls/event/sSlB74jLTbWthVrwBRb58Q/master.m3u8",
+            "adfree_url": "https://bd-mc-fdlive.fancode.com/mumbai/119261_english_hls_b0866561b940685ta-di_h264/index.m3u8"
         },
         {
             "event_category": "Golf",
