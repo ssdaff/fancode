@@ -37,16 +37,16 @@ document.addEventListener('DOMContentLoaded', () => {
             
             let watchOptionsHTML = '';
             if (match.dai_url && match.adfree_url) {
-                
-                // আপনার শেষ অনুরোধ অনুযায়ী, এখানে সরাসরি M3U8 লিঙ্ক ব্যবহার করা হচ্ছে
+                // --- মূল পরিবর্তন এখানে ---
+                // এখন লিঙ্কে player.html থাকছে না, সরাসরি M3U8 লিঙ্ক ব্যবহার করা হচ্ছে
                 const adUrl = match.dai_url;
                 const adFreeUrl = match.adfree_url;
-                
-                // --- মূল পরিবর্তন এখানে ---
+                // --------------------------
+
                 watchOptionsHTML = `
                     <div class="watch-options">
-                        <a href="${adUrl}" target="_blank" class="watch-btn">IND IP</a>
-                        <a href="${adFreeUrl}" target="_blank" class="watch-btn">BD IP</a>
+                        <a href="${adUrl}" target="_blank" class="watch-btn">Ad</a>
+                        <a href="${adFreeUrl}" target="_blank" class="watch-btn">Ad-free 2</a>
                     </div>
                 `;
             }
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <div class="card-content">
                     <h2 class="tournament-title">${match.event_name}</h2>
-                    <p class="match-info">${match.match_name}</p
+                    <p class="match-info">${match.match_name}</p>
                     <p class="start-time">Start: ${match.startTime}</p>
                 </div>
                 ${watchOptionsHTML}
