@@ -1,22 +1,8 @@
 {
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "last update time": "03:33:51 AM 29-12-2025",
+    "last update time": "03:23:41 AM 29-12-2025",
     "matches": [
-        {
-            "event_category": "Golf",
-            "title": "New York vs Atlanta vs Florida (TGL Season 2)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
-            "team_1": "New York vs Atlanta",
-            "team_2": "Florida",
-            "status": "LIVE",
-            "event_name": "TGL Season 2",
-            "match_name": "New York vs Atlanta",
-            "match_id": 139163,
-            "startTime": "01:30:00 AM 29-12-2025",
-            "dai_url": "https://dai.google.com/linear/hls/event/hdI31ONnRLuBE5dUQpZTfw/master.m3u8",
-            "adfree_url": "https://bd-mc-fdlive.fancode.com/mumbai/139163_english_hls_96cb51060916107_1ta-di_h264/index.m3u8"
-        },
         {
             "event_category": "Football",
             "title": "Ivory Coast vs Cameroon (Africa Cup of Nations 2025-26)",
@@ -30,6 +16,20 @@
             "startTime": "01:30:00 AM 29-12-2025",
             "dai_url": "https://dai.google.com/linear/hls/event/V-ERIDjFRuOn48yGrdtplg/master.m3u8",
             "adfree_url": "https://bd-mc-fdlive.fancode.com/mumbai/138365_english_hls_6a81e90d8c90298_1ta-di_h264/index.m3u8"
+        },
+        {
+            "event_category": "Golf",
+            "title": "New York vs Atlanta vs Florida (TGL Season 2)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
+            "team_1": "New York vs Atlanta",
+            "team_2": "Florida",
+            "status": "LIVE",
+            "event_name": "TGL Season 2",
+            "match_name": "New York vs Atlanta",
+            "match_id": 139163,
+            "startTime": "01:30:00 AM 29-12-2025",
+            "dai_url": "https://dai.google.com/linear/hls/event/hdI31ONnRLuBE5dUQpZTfw/master.m3u8",
+            "adfree_url": "https://bd-mc-fdlive.fancode.com/mumbai/139163_english_hls_96cb51060916107_1ta-di_h264/index.m3u8"
         },
         {
             "event_category": "Cricket",
