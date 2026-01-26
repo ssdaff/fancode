@@ -1,50 +1,59 @@
+# Workflow-এর নাম
 name: Sync Fancode Files every 5 minutes
 
+# Race Condition ঠেকানোর জন্য
 concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: true
 
+# কখন এই Workflow চলবে
 on:
-  workflow_dispatch: # ম্যানুয়ালি টেস্ট করার জন্য
+  workflow_dispatch: # ম্যানুয়ালি চালানোর জন্য
   schedule:
-    - cron: '*/5 * * * *' # প্রতি ৫ মিনিট পর পর
+    # প্রতি ৫ মিনিট পর পর চালানোর জন্য
+    - cron: '*/5 * * * *'
 
 jobs:
   sync-json:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # অটোমেটিক আপডেটের জন্য এই পারমিশন খুব জরুরি
     
     steps:
+      # ধাপ ১: আপনার নিজের রিপোজিটরির কোড চেকআউট করা
       - name: Checkout Your Repository
         uses: actions/checkout@v4
         with:
-          # আমরা এখানে GITHUB_TOKEN ব্যবহার করছি, এটি আলাদা করে তৈরি করতে হয় না
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.SYNC_TOKEN }}
           ref: 'main'
 
+      # ধাপ ২: fancode.json এবং fancode.m3u ফাইল দুটি ডাউনলোড করা
       - name: Download latest files from Upstream
         run: |
           curl -o fancode.json "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json"
           curl -o fancode.m3u "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.m3u"
 
+      # ধাপ ৩: ফাইল পরিবর্তন করা, সেভ (Commit) এবং পুশ করা
       - name: Modify, Commit and Push if changed
         run: |
+          # Git-এর জন্য একটি পরিচয় সেট করা
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # India Link to BD Link conversion
+          # fancode.json ফাইলের ভেতরে "https://in-mc-fdlive" খুঁজে "https://bd-mc-fdlive" দিয়ে পরিবর্তন করা
           sed -i 's#https://in-mc-fdlive#https://bd-mc-fdlive#g' fancode.json
           
-          # ফাইল স্টেজিং করা
+          # দুটি ফাইলকেই স্টেজিং-এ যোগ করা
           git add fancode.json fancode.m3u
           
-          # পরিবর্তন আছে কি না চেক করা
+          # চেক করা হচ্ছে ফাইল দুটিতে কোনো পরিবর্তন এসেছে কি না
           if git diff --staged --quiet; then
-            echo "No changes to commit. Everything is up to date."
-            exit 0
+            echo "No changes to commit. Files are already up-to-date."
+            exit 0 # সফলভাবে প্রস্থান করুন
           fi
           
-          # কমিট এবং পুশ করা
+          # যদি পরিবর্তন থাকে, তাহলে commit করা হবে
           git commit -m "Auto-update and localize Fancode files"
+          
+          # git pull origin main --rebase  <-- এই অপ্রয়োজনীয় লাইনটি মুছে ফেলা হয়েছে
+          
+          # 'origin main' নির্দিষ্ট করে পুশ করা
           git push origin main
