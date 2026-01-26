@@ -5,21 +5,22 @@ concurrency:
   cancel-in-progress: true
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # ম্যানুয়ালি টেস্ট করার জন্য
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/5 * * * *' # প্রতি ৫ মিনিট পর পর
 
 jobs:
   sync-json:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # অটোমেটিক আপডেটের জন্য এই লাইনটি খুব জরুরি
+      contents: write # অটোমেটিক আপডেটের জন্য এই পারমিশন খুব জরুরি
     
     steps:
       - name: Checkout Your Repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }} # আপনার আগের টোকেন বাদ দিয়ে এটি ব্যবহার করুন
+          # আমরা এখানে GITHUB_TOKEN ব্যবহার করছি, এটি আলাদা করে তৈরি করতে হয় না
+          token: ${{ secrets.GITHUB_TOKEN }}
           ref: 'main'
 
       - name: Download latest files from Upstream
@@ -35,12 +36,15 @@ jobs:
           # India Link to BD Link conversion
           sed -i 's#https://in-mc-fdlive#https://bd-mc-fdlive#g' fancode.json
           
+          # ফাইল স্টেজিং করা
           git add fancode.json fancode.m3u
           
+          # পরিবর্তন আছে কি না চেক করা
           if git diff --staged --quiet; then
-            echo "No changes to commit."
+            echo "No changes to commit. Everything is up to date."
             exit 0
           fi
           
+          # কমিট এবং পুশ করা
           git commit -m "Auto-update and localize Fancode files"
           git push origin main
