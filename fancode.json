@@ -1,7 +1,7 @@
 {
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "last update time": "07:12:47 PM 03-02-2026",
+    "last update time": "08:03:19 PM 03-02-2026",
     "matches": [
         {
             "event_category": "Cricket",
@@ -46,20 +46,6 @@
             "adfree_url": "https://bd-mc-fdlive.fancode.com/mumbai/139612_english_hls_1b3dc5177883817_1ta-di_h264/index.m3u8"
         },
         {
-            "event_category": "Futsal",
-            "title": "Indonesia vs Vietnam (AFC Futsal Asian Cup, 2026)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
-            "team_1": "Indonesia",
-            "team_2": "Vietnam",
-            "status": "LIVE",
-            "event_name": "AFC Futsal Asian Cup, 2026",
-            "match_name": "Indonesia vs Vietnam",
-            "match_id": 139908,
-            "startTime": "05:30:00 PM 03-02-2026",
-            "dai_url": "https://dai.google.com/linear/hls/event/mC7DrNLIRDW5W4NmEQRyZg/master.m3u8",
-            "adfree_url": "https://bd-mc-fdlive.fancode.com/mumbai/139908_english_hls_af696b242c48299_1ta-di_h264/index.m3u8"
-        },
-        {
             "event_category": "Tennis",
             "title": "Day 2 vs Montpellier, France (ATP 250 - Open Occitanie 2026)",
             "src": "https://www.fancode.com/skillup-uploads/cms-media/Open-Occitanie_web.jpg",
@@ -72,20 +58,6 @@
             "startTime": "07:00:00 PM 03-02-2026",
             "dai_url": "https://dai.google.com/linear/hls/event/ofm4W7XkSKSu7s230ki1Pg/master.m3u8",
             "adfree_url": "https://bd-mc-fdlive.fancode.com/mumbai/140181_english_hls_381b3d1afd2572_1ta-di_h264/index.m3u8"
-        },
-        {
-            "event_category": "Cricket",
-            "title": "Rajasthan Lions vs Pune Panthers (World Legends Pro T20 League, 2026)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/140081_5928_PPT_RLS_FC-Web_1769654908421.jpg",
-            "team_1": "Rajasthan Lions",
-            "team_2": "Pune Panthers",
-            "status": "LIVE",
-            "event_name": "World Legends Pro T20 League, 2026",
-            "match_name": "Rajasthan Lions vs Pune Panthers",
-            "match_id": 140088,
-            "startTime": "02:30:00 PM 03-02-2026",
-            "dai_url": "https://dai.google.com/linear/hls/event/o1HJJzdRSDGYoaKGS4i2lQ/master.m3u8",
-            "adfree_url": "https://bd-mc-fdlive.fancode.com/mumbai/140088_english_hls_36901c014c76059_1ta-di_h264/index.m3u8"
         },
         {
             "event_category": "Cricket",
@@ -196,18 +168,6 @@
             "startTime": "07:30:00 AM 04-02-2026"
         },
         {
-            "event_category": "Football",
-            "title": "San Diego vs Pumas UNAM (CONCACAF Champions Cup 2026)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-            "team_1": "San Diego",
-            "team_2": "Pumas UNAM",
-            "status": "UPCOMING",
-            "event_name": "CONCACAF Champions Cup 2026",
-            "match_name": "San Diego vs Pumas UNAM",
-            "match_id": 140370,
-            "startTime": "09:30:00 AM 04-02-2026"
-        },
-        {
             "event_category": "Cricket",
             "title": "Sharjah vs Dubai (Emirates D10, 2026)",
             "src": "https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_1769270071345.jpg",
@@ -218,6 +178,18 @@
             "match_name": "Sharjah vs Dubai",
             "match_id": 139615,
             "startTime": "04:30:00 PM 04-02-2026"
+        },
+        {
+            "event_category": "Football",
+            "title": "San Diego vs Pumas UNAM (CONCACAF Champions Cup 2026)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+            "team_1": "San Diego",
+            "team_2": "Pumas UNAM",
+            "status": "UPCOMING",
+            "event_name": "CONCACAF Champions Cup 2026",
+            "match_name": "San Diego vs Pumas UNAM",
+            "match_id": 140370,
+            "startTime": "09:30:00 AM 04-02-2026"
         },
         {
             "event_category": "Cricket",
@@ -242,6 +214,18 @@
             "match_name": "Ajman vs Dubai",
             "match_id": 139617,
             "startTime": "09:00:00 PM 04-02-2026"
+        },
+        {
+            "event_category": "Cricket",
+            "title": "Fujairah vs Emirates Red (Emirates D10, 2026)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_opt2.jpg",
+            "team_1": "Fujairah",
+            "team_2": "Emirates Red",
+            "status": "UPCOMING",
+            "event_name": "Emirates D10, 2026",
+            "match_name": "Fujairah vs Emirates Red",
+            "match_id": 139618,
+            "startTime": "11:15:00 PM 04-02-2026"
         },
         {
             "event_category": "Live Events",
@@ -292,18 +276,6 @@
             "startTime": "09:00:00 AM 04-02-2026"
         },
         {
-            "event_category": "Cricket",
-            "title": "Fujairah vs Emirates Red (Emirates D10, 2026)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_opt2.jpg",
-            "team_1": "Fujairah",
-            "team_2": "Emirates Red",
-            "status": "UPCOMING",
-            "event_name": "Emirates D10, 2026",
-            "match_name": "Fujairah vs Emirates Red",
-            "match_id": 139618,
-            "startTime": "11:15:00 PM 04-02-2026"
-        },
-        {
             "event_category": "Live Events",
             "title": "Day 1 vs Delhi (Asian Rifle & Pistol Championship 2026)",
             "src": "https://www.fancode.com/skillup-uploads/cms-media/Asian-Rifle_Pistol-Championship-2026-old-Sporty-.png",
@@ -340,18 +312,6 @@
             "startTime": "01:15:00 AM 05-02-2026"
         },
         {
-            "event_category": "Tennis",
-            "title": "Day 3 vs Montpellier, France (ATP 250 - Open Occitanie 2026)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Open-Occitanie_web.jpg",
-            "team_1": "Day 3",
-            "team_2": "Montpellier, France",
-            "status": "UPCOMING",
-            "event_name": "ATP 250 - Open Occitanie 2026",
-            "match_name": "Day 3",
-            "match_id": 140182,
-            "startTime": "06:00:00 PM 04-02-2026"
-        },
-        {
             "event_category": "Football",
             "title": "Manchester City vs Newcastle United (Carabao Cup 2025-2026)",
             "src": "https://www.fancode.com/skillup-uploads/cms-media/04_Manchester-City-vs-Newcastle-United_1768301596061.png",
@@ -386,6 +346,18 @@
             "match_name": "Deportivo Alaves vs Real Sociedad",
             "match_id": 140048,
             "startTime": "01:30:00 AM 05-02-2026"
+        },
+        {
+            "event_category": "Tennis",
+            "title": "Day 3 vs Montpellier, France (ATP 250 - Open Occitanie 2026)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Open-Occitanie_web.jpg",
+            "team_1": "Day 3",
+            "team_2": "Montpellier, France",
+            "status": "UPCOMING",
+            "event_name": "ATP 250 - Open Occitanie 2026",
+            "match_name": "Day 3",
+            "match_id": 140182,
+            "startTime": "06:00:00 PM 04-02-2026"
         },
         {
             "event_category": "Cricket",
@@ -458,6 +430,18 @@
             "match_name": "Western Australia vs Tasmania",
             "match_id": 134034,
             "startTime": "08:00:00 AM 05-02-2026"
+        },
+        {
+            "event_category": "Football",
+            "title": "Vancouver FC vs Cruz Azul (CONCACAF Champions Cup 2026)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+            "team_1": "Vancouver FC",
+            "team_2": "Cruz Azul",
+            "status": "UPCOMING",
+            "event_name": "CONCACAF Champions Cup 2026",
+            "match_name": "Vancouver FC vs Cruz Azul",
+            "match_id": 140372,
+            "startTime": "08:30:00 AM 05-02-2026"
         }
     ]
 }
