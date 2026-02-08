@@ -1,7 +1,7 @@
 {
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "last update time": "06:24:25 PM 08-02-2026",
+    "last update time": "07:15:03 PM 08-02-2026",
     "matches": [
         {
             "event_category": "Football",
@@ -129,6 +129,18 @@
         },
         {
             "event_category": "Football",
+            "title": "Rangers vs Queen's Park (Scottish Cup 2025-26)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+            "team_1": "Rangers",
+            "team_2": "Queen's Park",
+            "status": "UPCOMING",
+            "event_name": "Scottish Cup 2025-26",
+            "match_name": "Rangers vs Queen's Park",
+            "match_id": 140294,
+            "startTime": "07:30:00 PM 08-02-2026"
+        },
+        {
+            "event_category": "Football",
             "title": "Sevilla FC vs Girona FC (LALIGA 2025-26)",
             "src": "https://www.fancode.com/skillup-uploads/cms-media/131053_5427_SEV_GIR_FC-Web.png",
             "team_1": "Sevilla FC",
@@ -177,18 +189,6 @@
         },
         {
             "event_category": "Football",
-            "title": "Rangers vs Queen's Park (Scottish Cup 2025-26)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-            "team_1": "Rangers",
-            "team_2": "Queen's Park",
-            "status": "UPCOMING",
-            "event_name": "Scottish Cup 2025-26",
-            "match_name": "Rangers vs Queen's Park",
-            "match_id": 140294,
-            "startTime": "07:30:00 PM 08-02-2026"
-        },
-        {
-            "event_category": "Football",
             "title": "C\u00e1diz vs Almer\u00eda (LALIGA Hypermotion 2025-26)",
             "src": "https://images.fancode.com/aig/match/v1770347072522/140429_CASACARDS_APP.png",
             "team_1": "C\u00e1diz",
@@ -198,6 +198,20 @@
             "match_name": "C\u00e1diz vs Almer\u00eda",
             "match_id": 140429,
             "startTime": "08:45:00 PM 08-02-2026"
+        },
+        {
+            "event_category": "Tennis",
+            "title": "Finals vs Montpellier, France (ATP 250 - Open Occitanie 2026)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Open-Occitanie_web.jpg",
+            "team_1": "Finals",
+            "team_2": "Montpellier, France",
+            "status": "LIVE",
+            "event_name": "ATP 250 - Open Occitanie 2026",
+            "match_name": "Finals",
+            "match_id": 140186,
+            "startTime": "07:30:00 PM 08-02-2026",
+            "dai_url": "https://dai.google.com/linear/hls/event/VDZoCPxDSAqKKRQnKnKwDA/master.m3u8",
+            "adfree_url": "https://bd-mc-fdlive.fancode.com/mumbai/140186_english_hls_8e47b2787f27163_1ta-di_h264/index.m3u8"
         },
         {
             "event_category": "Football",
@@ -224,16 +238,28 @@
             "startTime": "07:15:00 PM 09-02-2026"
         },
         {
-            "event_category": "Tennis",
-            "title": "Finals vs Montpellier, France (ATP 250 - Open Occitanie 2026)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Open-Occitanie_web.jpg",
-            "team_1": "Finals",
-            "team_2": "Montpellier, France",
+            "event_category": "Football",
+            "title": "Al Duhail vs Sharjah (AFC Champions League Elite 2025-26)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/136082_5647_ADH_SHJ_fc-Web.jpg",
+            "team_1": "Al Duhail",
+            "team_2": "Sharjah",
             "status": "UPCOMING",
-            "event_name": "ATP 250 - Open Occitanie 2026",
-            "match_name": "Finals",
-            "match_id": 140186,
-            "startTime": "07:30:00 PM 08-02-2026"
+            "event_name": "AFC Champions League Elite 2025-26",
+            "match_name": "Al Duhail vs Sharjah",
+            "match_id": 136082,
+            "startTime": "09:30:00 PM 09-02-2026"
+        },
+        {
+            "event_category": "Football",
+            "title": "Shabab Al Ahli vs Al Hilal SFC (AFC Champions League Elite 2025-26)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/136081_5647_SAA_AHS_fc-Web.jpg",
+            "team_1": "Shabab Al Ahli",
+            "team_2": "Al Hilal SFC",
+            "status": "UPCOMING",
+            "event_name": "AFC Champions League Elite 2025-26",
+            "match_name": "Shabab Al Ahli vs Al Hilal SFC",
+            "match_id": 136081,
+            "startTime": "09:30:00 PM 09-02-2026"
         },
         {
             "event_category": "Golf",
@@ -282,30 +308,6 @@
             "match_name": "Featured Holes - Day 4",
             "match_id": 140403,
             "startTime": "10:30:00 PM 08-02-2026"
-        },
-        {
-            "event_category": "Football",
-            "title": "Al Duhail vs Sharjah (AFC Champions League Elite 2025-26)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/136082_5647_ADH_SHJ_fc-Web.jpg",
-            "team_1": "Al Duhail",
-            "team_2": "Sharjah",
-            "status": "UPCOMING",
-            "event_name": "AFC Champions League Elite 2025-26",
-            "match_name": "Al Duhail vs Sharjah",
-            "match_id": 136082,
-            "startTime": "09:30:00 PM 09-02-2026"
-        },
-        {
-            "event_category": "Football",
-            "title": "Shabab Al Ahli vs Al Hilal SFC (AFC Champions League Elite 2025-26)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/136081_5647_SAA_AHS_fc-Web.jpg",
-            "team_1": "Shabab Al Ahli",
-            "team_2": "Al Hilal SFC",
-            "status": "UPCOMING",
-            "event_name": "AFC Champions League Elite 2025-26",
-            "match_name": "Shabab Al Ahli vs Al Hilal SFC",
-            "match_id": 136081,
-            "startTime": "09:30:00 PM 09-02-2026"
         },
         {
             "event_category": "Live Events",
@@ -462,6 +464,18 @@
             "match_name": "The Bay vs Los Angeles",
             "match_id": 139170,
             "startTime": "05:30:00 AM 10-02-2026"
+        },
+        {
+            "event_category": "Cricket",
+            "title": "Western Australia vs Tasmania (One Day Cup, 2025-26)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/133945_5606_WAU_TAS_fc-web.jpg",
+            "team_1": "Western Australia",
+            "team_2": "Tasmania",
+            "status": "UPCOMING",
+            "event_name": "One Day Cup, 2025-26",
+            "match_name": "Western Australia vs Tasmania",
+            "match_id": 133945,
+            "startTime": "11:30:00 AM 10-02-2026"
         }
     ]
 }
