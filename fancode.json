@@ -1,8 +1,22 @@
 {
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "last update time": "04:12:05 AM 16-02-2026",
+    "last update time": "04:42:22 AM 16-02-2026",
     "matches": [
+        {
+            "event_category": "Cricket",
+            "title": "Victoria Women vs Western Australia Women (Women's National Cricket League, 2025-26)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v2_1758034980092.jpg",
+            "team_1": "Victoria Women",
+            "team_2": "Western Australia Women",
+            "status": "LIVE",
+            "event_name": "Women's National Cricket League, 2025-26",
+            "match_name": "Victoria Women vs Western Australia Women",
+            "match_id": 133981,
+            "startTime": "04:30:00 AM 16-02-2026",
+            "dai_url": "https://bd-mc-fdlive.fancode.com/mumbai/133981_english_hls_932f8b0f979731_1ta-di_h264/index.m3u8",
+            "adfree_url": "https://bd-mc-fdlive.fancode.com/mumbai/133981_english_hls_932f8b0f979731_1ta-di_h264/index.m3u8"
+        },
         {
             "event_category": "Golf",
             "title": "World Feed - Day 4 vs Pebble Beach Golf Links, Spyglass Hill Golf Course (AT&T Pebble Beach Pro-Am 2026)",
@@ -33,15 +47,15 @@
         },
         {
             "event_category": "Cricket",
-            "title": "Victoria Women vs Western Australia Women (Women's National Cricket League, 2025-26)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v2_1758034980092.jpg",
-            "team_1": "Victoria Women",
-            "team_2": "Western Australia Women",
+            "title": "Queensland vs South Australia (Sheffield Shield, 2025-26)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/134035_5609_QUN_SAU_fc-Web.jpg",
+            "team_1": "Queensland",
+            "team_2": "South Australia",
             "status": "UPCOMING",
-            "event_name": "Women's National Cricket League, 2025-26",
-            "match_name": "Victoria Women vs Western Australia Women",
-            "match_id": 133981,
-            "startTime": "04:30:00 AM 16-02-2026"
+            "event_name": "Sheffield Shield, 2025-26",
+            "match_name": "Queensland vs South Australia",
+            "match_id": 134035,
+            "startTime": "05:30:00 AM 16-02-2026"
         },
         {
             "event_category": "Football",
@@ -90,18 +104,6 @@
             "match_name": "Sharjah vs Nasaf",
             "match_id": 136085,
             "startTime": "09:30:00 PM 16-02-2026"
-        },
-        {
-            "event_category": "Cricket",
-            "title": "Queensland vs South Australia (Sheffield Shield, 2025-26)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/134035_5609_QUN_SAU_fc-Web.jpg",
-            "team_1": "Queensland",
-            "team_2": "South Australia",
-            "status": "UPCOMING",
-            "event_name": "Sheffield Shield, 2025-26",
-            "match_name": "Queensland vs South Australia",
-            "match_id": 134035,
-            "startTime": "05:30:00 AM 16-02-2026"
         },
         {
             "event_category": "Cricket",
@@ -284,6 +286,18 @@
             "startTime": "12:00:00 AM 17-02-2026"
         },
         {
+            "event_category": "Live Events",
+            "title": "Day 2 vs Polo Gorund, Delhi University (Apti Cup T20 Tournament)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Apti_cup_web.jpg",
+            "team_1": "Day 2",
+            "team_2": "Polo Gorund, Delhi University",
+            "status": "UPCOMING",
+            "event_name": "Apti Cup T20 Tournament",
+            "match_name": "Day 2",
+            "match_id": 140600,
+            "startTime": "09:00:00 AM 17-02-2026"
+        },
+        {
             "event_category": "Tennis",
             "title": "Quadra 1 vs Rio (ATP 500 - Rio Open Presented by Claro 2026)",
             "src": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
@@ -318,18 +332,6 @@
             "match_name": "Quadra Guga Kuerten",
             "match_id": 140650,
             "startTime": "12:00:00 AM 17-02-2026"
-        },
-        {
-            "event_category": "Live Events",
-            "title": "Day 2 vs Polo Gorund, Delhi University (Apti Cup T20 Tournament)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Apti_cup_web.jpg",
-            "team_1": "Day 2",
-            "team_2": "Polo Gorund, Delhi University",
-            "status": "UPCOMING",
-            "event_name": "Apti Cup T20 Tournament",
-            "match_name": "Day 2",
-            "match_id": 140600,
-            "startTime": "09:00:00 AM 17-02-2026"
         },
         {
             "event_category": "Football",
