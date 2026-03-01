@@ -1,21 +1,21 @@
 {
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "last update time": "09:30:05 AM 01-03-2026",
+    "last update time": "10:50:55 AM 01-03-2026",
     "matches": [
         {
-            "event_category": "Football",
-            "title": "Wellington Phoenix vs Sydney FC (A League 2025-26)",
-            "src": "https://images.fancode.com/aig/match/v1772333905015/140905_CASACARDS_APP.png",
-            "team_1": "Wellington Phoenix",
-            "team_2": "Sydney FC",
+            "event_category": "Cricket",
+            "title": "Hong Kong, China vs Kuwait (Men's T20I Series 2026)",
+            "src": "https://images.fancode.com/aig/match/v1771899776744/140882_CASACARDS_APP.png",
+            "team_1": "Hong Kong, China",
+            "team_2": "Kuwait",
             "status": "LIVE",
-            "event_name": "A League 2025-26",
-            "match_name": "Wellington Phoenix vs Sydney FC",
-            "match_id": 140905,
-            "startTime": "07:30:00 AM 01-03-2026",
-            "dai_url": "https://bd-mc-fdlive.fancode.com/mumbai/140905_english_hls_9ce5a3125c85424_1ta-di_h264/index.m3u8",
-            "adfree_url": "https://bd-mc-fdlive.fancode.com/mumbai/140905_english_hls_9ce5a3125c85424_1ta-di_h264/index.m3u8"
+            "event_name": "Men's T20I Series 2026",
+            "match_name": "Hong Kong, China vs Kuwait",
+            "match_id": 140882,
+            "startTime": "10:45:00 AM 01-03-2026",
+            "dai_url": null,
+            "adfree_url": null
         },
         {
             "event_category": "Tennis",
@@ -87,25 +87,13 @@
         },
         {
             "event_category": "Cricket",
-            "title": "Hong Kong, China vs Kuwait (Men's T20I Series 2026)",
-            "src": "https://images.fancode.com/aig/match/v1771899776744/140882_CASACARDS_APP.png",
-            "team_1": "Hong Kong, China",
-            "team_2": "Kuwait",
-            "status": "UPCOMING",
-            "event_name": "Men's T20I Series 2026",
-            "match_name": "Hong Kong, China vs Kuwait",
-            "match_id": 140882,
-            "startTime": "10:45:00 AM 01-03-2026"
-        },
-        {
-            "event_category": "Cricket",
-            "title": "Paarl East Cricket Club vs Maties Cricket Club (Boland T20 Super League Finals 2026)",
+            "title": "Van der Stel Cricket Club vs Paarl East Cricket Club (Boland T20 Super League Finals 2026)",
             "src": "https://www.fancode.com/skillup-uploads/cms-media/140683_5968_MAT_PECC_FC-Web.jpg",
-            "team_1": "Paarl East Cricket Club",
-            "team_2": "Maties Cricket Club",
+            "team_1": "Van der Stel Cricket Club",
+            "team_2": "Paarl East Cricket Club",
             "status": "UPCOMING",
             "event_name": "Boland T20 Super League Finals 2026",
-            "match_name": "Paarl East Cricket Club vs Maties Cricket Club",
+            "match_name": "Van der Stel Cricket Club vs Paarl East Cricket Club",
             "match_id": 140693,
             "startTime": "12:30:00 PM 01-03-2026"
         },
@@ -158,18 +146,6 @@
             "startTime": "06:30:00 PM 01-03-2026"
         },
         {
-            "event_category": "Football",
-            "title": "Mumbai City FC vs NorthEast United FC (ISL 2025-26)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/140451_5956_MCFC_NEUFC_fc-web_1772229182804.jpg",
-            "team_1": "Mumbai City FC",
-            "team_2": "NorthEast United FC",
-            "status": "UPCOMING",
-            "event_name": "ISL 2025-26",
-            "match_name": "Mumbai City FC vs NorthEast United FC",
-            "match_id": 140451,
-            "startTime": "07:30:00 PM 01-03-2026"
-        },
-        {
             "event_category": "Cricket",
             "title": "TBC vs TBC (Boland T20 Super League Finals 2026)",
             "src": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
@@ -180,6 +156,18 @@
             "match_name": "TBC vs TBC",
             "match_id": 140695,
             "startTime": "10:00:00 PM 01-03-2026"
+        },
+        {
+            "event_category": "Football",
+            "title": "Mumbai City FC vs NorthEast United FC (ISL 2025-26)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/140451_5956_MCFC_NEUFC_fc-web_1772229182804.jpg",
+            "team_1": "Mumbai City FC",
+            "team_2": "NorthEast United FC",
+            "status": "UPCOMING",
+            "event_name": "ISL 2025-26",
+            "match_name": "Mumbai City FC vs NorthEast United FC",
+            "match_id": 140451,
+            "startTime": "07:30:00 PM 01-03-2026"
         },
         {
             "event_category": "Football",
@@ -408,6 +396,18 @@
             "match_name": "Hong Kong, China vs Kuwait",
             "match_id": 140883,
             "startTime": "06:30:00 AM 03-03-2026"
+        },
+        {
+            "event_category": "Football",
+            "title": "DPR Korea Women vs Uzbekistan Women (AFC Women's Asian Cup, 2026)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/140796_5979_NK-W_UB-W_fc-Web_1772191702163.jpg",
+            "team_1": "DPR Korea Women",
+            "team_2": "Uzbekistan Women",
+            "status": "UPCOMING",
+            "event_name": "AFC Women's Asian Cup, 2026",
+            "match_name": "DPR Korea Women vs Uzbekistan Women",
+            "match_id": 140796,
+            "startTime": "07:30:00 AM 03-03-2026"
         }
     ]
 }
